@@ -98,3 +98,4 @@ def exact_gibbs_state(H, beta):
     Z = np.real(np.trace(rho_unnorm))
     rho = rho_unnorm / Z
     return rho
+# Ising model also used in QAOA Max-Cut formulation
